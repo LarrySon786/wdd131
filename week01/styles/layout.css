@@ -1,0 +1,64 @@
+h1 {
+    font-family:Georgia
+}
+
+body {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto 3fr auto;
+}
+
+.title {
+    background-color: #003049;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    padding: 2rem;
+    color:aliceblue;
+}
+
+header {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-color: #466d85;
+    
+}
+
+main {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: #fdf0d5;
+    padding: 2rem;
+}
+
+aside {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: antiquewhite;
+    padding: 2rem;
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: #780000;
+    padding: 1rem;
+    color:aliceblue
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Georgia;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
