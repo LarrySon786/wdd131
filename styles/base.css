@@ -1,0 +1,132 @@
+header {
+    display: block;
+    width: 100%;
+    background-color: #003049;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #003049;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+nav {
+    Display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    background-color: #466d85;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    font-weight: 800;
+    color: rgb(255, 238, 206);
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    min-width: fit-content;
+    max-width: 100%;
+}
+
+.card {
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #b7daf0;
+    border: 1px black;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 35px auto auto auto;
+    list-style: none;
+}
+
+.card h2 {
+    background-color: #466d85;
+    grid-column: 1/5;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    text-align: center;
+    padding: 0.7rem;
+    color: aliceblue;
+    grid-row: 1/2;
+}
+
+.card p{
+    grid-column: 1/4;
+    padding: 1rem;
+    font-family: Georgia;
+}
+
+
+.ohio-div h3{
+    grid-column: 1/5;
+    text-align: center;
+    background-color: #466d85;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 0.5rem;
+    color:aliceblue;
+}
+
+.ohio-div figcaption {
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+}
+
+.ohio-div {
+    grid-column:1/5;
+    /* background-color: aqua; */
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+}
+
+.ohio-div p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    align-items: center;
+    padding: 1rem;
+    font-family: georgia;
+}
+
+footer {
+    background-color: #003049;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.resource-list {
+    list-style: none;
+}
+
+.resource-list li{
+    padding: 1rem;
+}
+
+.resource-list a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: underline;
+
+}
+
+/* #web-dev {
+    padding-bottom: -0.7rem;
+    margin-bottom: -2rem;
+} */

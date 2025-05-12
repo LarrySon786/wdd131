@@ -3,11 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Brandon Richards</title>
+    <meta name="description" content="Brandon James Richards | WDD131 - Dynamic Web Fundamentals class project. This page is the home page for the website.">
+    <meta name="author" content="Brandon Richards">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Brandon Richards</h1>
-    
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Brandon Richards</h1>
+        <nav>
+            <a href="">LinkedIn</a>
+            <a href="">Canvas</a>
+            <a href="">Scripture</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>My name is Brandon and I was born and raised in a small town in Ohio. It is surrounded by Amish country and farmlands. I currently work as the office manager for a nurse pracitioner clinic. I enjoy reading and hearing stories. I love animals, being outside, and more!</p>
+            <img src="images/brandon-igloo.jpg" alt="Photo of Brandon Richards" width="200">
+
+            <div class="ohio-div">
+                <h3>Ohio, United States</h3>
+                <figure><img src="images/ohio-state-flag.png" alt="Ohio State Flag" width="200"><figurecaption>The Ohio State Flag</figurecaption></figure>
+                <p>Ohio is the 7th largest state by population in the country. It is home to lots of industry, agriculture, and transportation centers. It is famous for being the birthplace of aviation as the Wright brothers invented the first plane here at their home. Ohio also is tied with Virgina for having the most US presidents. Ohio's history is rich and has played a big part in the nation's development. From civil war times, to American music, Ohio has left a significant footprint on the country.</p>
+            </div>
+        </section>
+        <section class="card">
+            <h2 id="web-dev">Web Dev Resources</h2>
+            <ul class="resource-list">
+                <li><a href="">Dev.to Community</a></li>
+                <li><a href="">Smashing Magazine</a></li>
+                <li><a href="">CSS Tricks</a></li>
+                <li><a href="">W3 Schools</a></li>
+                <li><a href="">Udemy</a></li>
+                <li><a href="">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p id="year"></p>
+        <!-- <span id="currentyear"></span> -->
+        <p id="modified"></p>
+    </footer>
 </body>
 </html>
 
