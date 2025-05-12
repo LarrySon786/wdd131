@@ -14,7 +14,7 @@ h1 {
 }
 
 nav {
-    Display: flex;
+    display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
     background-color: #466d85;
