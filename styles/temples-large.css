@@ -1,0 +1,71 @@
+@media screen and (min-width: 640px) {
+    header {
+        background-color: goldenrod;
+        font-family: georgia;
+        font-weight: 500;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    header h1 {
+        padding: 2rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        /* flex: 1 1 100%; */
+        align-items: center;
+        background-color: goldenrod;
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 2rem;
+    }
+
+    nav a:hover {
+        color: green
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem auto;
+        max-width: fit-content;
+    }
+
+    main h2 {
+        grid-column: 1/4;
+        text-align: center;
+        font-family: georgia;
+    }
+
+    figure {
+        font-family: trebuchet;
+        font-weight: 700;
+        text-align: center;
+        background-color: lavender;
+        padding: 2.25rem;
+        border-radius: 1rem;
+    }
+
+
+    footer {
+        background-color: goldenrod;
+        padding: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+
+    }
+
+    #menu {
+        display: none;
+    }
+
+}
