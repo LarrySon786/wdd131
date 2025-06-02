@@ -1,0 +1,200 @@
+@media screen and (max-width: 640px){
+    
+
+header {
+    background-color: goldenrod;
+    font-family: georgia;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+header h1 {
+    padding: 1rem;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: goldenrod;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+nav a:hover{
+    background-color: gold;
+    width:100%;
+    color: green
+}
+
+.navigation {
+    list-style: none;
+    max-width: 640px;
+}
+
+.navigation a {
+    display: none;
+}
+
+.show a {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    max-width: 640px;
+}
+
+main h2 {
+    text-align: center;
+    font-family: georgia;
+}
+
+figure {
+    font-family: trebuchet;
+    font-weight: 700;
+    text-align: center;
+    background-color: lavender;
+    padding: 2.25rem;
+    border-radius: 1rem;
+}
+
+
+footer {
+    background-color: goldenrod;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.temple-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+    max-width: fit-content;
+    text-align: center;
+    font-size: 1.2rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+}
+
+.temple-cards section {
+    background-color: lavender;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+
+.label {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Old CSS below. This was transfered to Large Screen CSS page */
+/* header {
+    background-color: goldenrod;
+    font-family: georgia;
+    font-weight: 500;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+header h1 {
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color:goldenrod;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+nav a:hover{
+    color:green
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+main h2{
+    grid-column: 1/4;
+    text-align: center;
+    font-family: georgia;
+}
+
+figure {
+    font-family: trebuchet;
+    font-weight: 700;
+    text-align: center;
+    background-color: lavender;
+    padding: 2.25rem;
+    border-radius: 1rem;
+}
+
+
+footer {
+    background-color: goldenrod;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+
+}  */

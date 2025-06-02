@@ -1,0 +1,47 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr {
+    border: 2px solid black;
+}
+
+table td {
+    border: 2px solid black;
+}
+
+th {
+    padding: 1rem;
+}
+
+.table-header {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.table-header-heads {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.table-header-heads th {
+    background-color: rgb(66, 64, 64);
+    color: white;
+    border: 2px solid black;
+}
+
+tr::nth-child(2) {
+    background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
