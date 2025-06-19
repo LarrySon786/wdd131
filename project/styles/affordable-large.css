@@ -254,4 +254,25 @@ form {
     grid-template-columns: 1fr;
 }
 
+.services div{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.services h2 {
+    font-family: poppins;
+    color: var(--charcoal);
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.services ul {
+    font-family: poppins;
+    font-weight: 700;
+    grid-column: 2/3;
+    font-size: 1.3rem;
+    color: rgb(117, 117, 117)
+}
+
+
 }
