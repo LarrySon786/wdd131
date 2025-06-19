@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us and Contact Form</title>
+    <meta name="description"
+        content="This page has our clinic's contact information as well as a form to allow users to submit questions or comments.">
+    <meta name="author" content="Brandon Richards">
+    <link rel="stylesheet" href="styles/affordable.css">
+    <link rel="stylesheet" href="styles/affordable-large.css"></link>
+    <script src="scripts/affordable.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Samaritan&family=Open+Sans:wdth@75..100&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Care For All</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="schedule-with-us.html">Schedule With Us</a>
+        </nav>
+    </header>
+    <main class="main-contact-us">
+        <div class="contact">
+            <img src="images/building.jpg" alt="Our Clinic's Building" loading="lazy">
+            <div>
+                <p>Our Contact Information</p>
+                <p>Phone: (330)888-9999</p>
+                <p>Email: frontdesk@afford.com</p>
+                <p>Address: 2222 Parkway Ave, Columbus, OH 44455</p>
+            </div>
+        </div>
+        <div class="div-form">
+            <form class="form" method="get" action="complete.html">
+                <h1>Send Us A Message</h1>
+                <fieldset>
+                    <legend>Patient Info</legend>
+                    <label>Your Name*<input type="text" name="fname" id="patient-name" placeholder="Enter Name" required></label>
+                    <label>Phone (optional)<input type="text" name="Phone" id="patient-phone" placeholder="800-999-9999"></label>
+                    <label>Email*<input type="text" name="Email" id="patient-email" placeholder="email@gmail.com"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Inquiry</legend>
+                    <label>Your Message<textarea id="textarea" name="textarea"></textarea></label>
+                </fieldset>
+                <input type="submit" id="form-submission" value="Send Your Message" >
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p id="year"></p>
+        <!-- <span id="currentyear"></span> -->
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>

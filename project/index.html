@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- www.careforall.com -->
+    <meta name="description" content="This website is to describe the functionality of Care For All's clinic. It helps the patient to know if this self-pay route is best for them. The home page has an insurance estimate calculator.">
+    <meta name="author" content="Brandon Richards">
+    <link rel="stylesheet" href="styles/affordable.css">
+    <link rel="stylesheet" href="styles/affordable-large.css"></link>
+    <script src="scripts/affordable.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Samaritan&family=Open+Sans:wdth@75..100&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Care For All</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="schedule-with-us.html">Schedule With Us</a>
+        </nav>
+    </header>
+    <main>
+        <p class="mission-statement">We are an self-pay clinic designed to create fair self-pay prices for our patients.
+            Everyone deserves a chance at good care. Find yours here.</p>
+        <section class="insurance">
+            <h2>Insurance vs Self-Pay</h2>
+            <p>The rising cost healthcare have made it difficult for many individuals to take care of themselves and their loved ones. On average, Health insurance is at a minimum of $450 per person which grows quite fast when you consider having a family. Health insurance continues to become more expensive year after year.</p>
+            <p>Use our insurance calculator to discover the average cost of health insurance here in the United States. </p>
+            <label for="insurance-cost">Enter Your Age: </label>
+            <input type="number" id="insurance-age" placeholder="Example: '21'">
+            <button type="submit" id="insurance-button">Find Your Expected Cost</button>
+            <p id="expected-cost"></p>
+        </section>
+        <section class="scheduling">
+            <img src="images/clinic-appointment.jpg" alt="Patient Appointment" loading="lazy">
+            <h2>Schedule With Us</h2>
+            <a href="schedule-with-us.html">Schedule Now</a>
+        </section>
+
+    </main>
+    <footer>
+        <p id="year"></p>
+        <!-- <span id="currentyear"></span> -->
+        <p id="modified"></p>
+    </footer>
+
+</body>
+
+</html>

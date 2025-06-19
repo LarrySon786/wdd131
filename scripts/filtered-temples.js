@@ -115,7 +115,7 @@ function createTempleCard(filteredTemples) {
         let templeName = document.createElement("h2");
         let location = document.createElement("p");
         let dedicated = document.createElement("p");
-        let size = document.createElement("p");
+        let size = document.createElement("p"); 
         let image = document.createElement("img")
 
         templeName.textContent = temple.templeName;
